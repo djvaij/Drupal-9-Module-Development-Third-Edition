@@ -101,6 +101,10 @@ And this command to try to automatically fix coding standards issues that pop up
 ```bash
 $ docker-compose exec php ./vendor/bin/run drupal:phpcbf
 ```
+
+## Errata
+* Page 43 (Custom submit handler code snippet): **'hello_world_salutation_configuration_form_submit';** _should be_ **'my_module_salutation_configuration_form_submit';**
+
 ### Related products <Other books you may enjoy>
 * WordPress 5 Cookbook [[Packt]](https://www.packtpub.com/business-other/wordpress-5-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781838986506) [[Amazon]](https://www.amazon.com/dp/1838986502)
 
@@ -110,5 +114,3 @@ $ docker-compose exec php ./vendor/bin/run drupal:phpcbf
 **Daniel Sipos**
 is a senior web developer specializing in Drupal. He's been working with Drupal sites since version 6, and started out, like many others, as a site builder. He's a self-taught programmer with many years' experience working professionally on complex Drupal 7 and 8 projects. In his spare time, he runs webomelette.com, a Drupal website where he writes technical articles, tips, and techniques related to Drupal development.
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
